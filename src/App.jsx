@@ -1,8 +1,10 @@
+import Nav from "./components/Nav";
+
 function App() {
   return (
-    <>
-      <h1 className="bg-blue-100">starting</h1>
-    </>
+    <div className=" min-h-screen w-full relative overflow-clip ">
+      <Nav />
+    </div>
   );
 }
 
