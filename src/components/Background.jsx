@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import cloudsVideo from "/src/assets/sky4.mp4";
 
 export default function Background() {
   const videoRef = useRef(null);
@@ -16,7 +17,8 @@ export default function Background() {
             <video
               ref={videoRef}
               className=" h-full w-full object-cover object-center bg-sky-700"
-              src="/src/assets/sky4.mp4"
+              src={cloudsVideo}
+              type="video/mp4"
               autoPlay
               muted
               loop
