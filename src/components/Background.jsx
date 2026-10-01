@@ -10,7 +10,7 @@ export default function Background() {
   }, []);
   return (
     <div className="">
-      <div className="h-screen w-full fixed z-0 top-0 overflow-clip ">
+      <div className="h-screen w-full fixed z-0 top-0 overflow-clip pointer-events-none ">
         <div className="  h-screen w-full  relative flex items-center justify-center  overflow-hidden ">
           <div className="h-full w-full  absolute -translate-y-1/2 -translate-x-1/2 top-1/2 left-1/2 overflow-hidden   ">
             <video
