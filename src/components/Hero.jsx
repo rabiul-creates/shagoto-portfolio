@@ -25,8 +25,8 @@ export default function Hero() {
 
               {/* Text = holes */}
               <text
-                x="40"
-                y="80"
+                x="220"
+                y="100"
                 fill="black"
                 fontSize="80"
                 fontFamily="Moontime, serif"
@@ -36,8 +36,8 @@ export default function Hero() {
               </text>
 
               <text
-                x="40"
-                y="140"
+                x="60"
+                y="160"
                 fill="black"
                 fontSize="32"
                 fontWeight="700"
@@ -48,7 +48,7 @@ export default function Hero() {
 
               <text
                 x="270"
-                y="180"
+                y="200"
                 fill="black"
                 fontSize="80"
                 fontWeight="400"
@@ -59,7 +59,7 @@ export default function Hero() {
 
               <text
                 x="560"
-                y="140"
+                y="160"
                 textAnchor="end"
                 fill="black"
                 fontSize="32"
@@ -70,8 +70,8 @@ export default function Hero() {
               </text>
 
               <text
-                x="40"
-                y="180"
+                x="60"
+                y="200"
                 fill="black"
                 fontSize="32"
                 fontWeight="700"
@@ -81,8 +81,8 @@ export default function Hero() {
               </text>
 
               <text
-                x="560"
-                y="180"
+                x="478"
+                y="200"
                 textAnchor="end"
                 fill="black"
                 fontSize="32"
@@ -92,8 +92,6 @@ export default function Hero() {
                 Expert
               </text>
 
-              {/* Small bottom-left mark */}
-
               <circle cx="0" cy="35" r="10" fill="black" />
               <circle cx="0" cy="80" r="10" fill="black" />
               <circle cx="0" cy="125" r="10" fill="black" />
@@ -102,11 +100,10 @@ export default function Hero() {
               <circle cx="0" cy="260" r="10" fill="black" />
               <circle cx="0" cy="305" r="10" fill="black" />
 
-              <rect x="160" y="263" width="30" height="30" fill="black" />
               {/* Name */}
 
               <text
-                x="280"
+                x="290"
                 y="285"
                 textAnchor="end"
                 fill="black"
@@ -118,7 +115,7 @@ export default function Hero() {
               </text>
 
               <text
-                x="370"
+                x="380"
                 y="285"
                 textAnchor="end"
                 fill="black"
@@ -141,10 +138,9 @@ export default function Hero() {
         </svg>
         <div
           className="hero-text absolute top-4/5 left-1/2 -translate-x-1/2 max-w-[600px]
-      text-center text-xl md:text-3xl lg:text-4xl text-white text-shadow-lg text-shadow-black/20 "
+      text-center text-2xl md:text-3xl lg:text-4xl text-white text-shadow-lg text-shadow-black/20 "
         >
           <p>Clear skies for your storefront. </p>
-          <p>Building stores that sell.</p>
         </div>
       </div>
     </section>

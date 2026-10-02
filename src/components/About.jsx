@@ -17,10 +17,10 @@ export default function About() {
             <div className="w-full border-b border-gray-400 mt-5" />
           </div>
 
-          <div className="w-full flex flex-col md:flex-row items-start justify-between gap-2">
+          <div className="w-full flex flex-col md:flex-row items-start justify-between gap-5">
             <div className="text-lg sm:text-xl md:text-2xl max-w-lg md:max-w-xl  ">
               <p>
-                I am
+                Hello, I am
                 <span className="font-NewKansasSwash font-extrabold text-black">
                   {" "}
                   Shagoto Rahman
@@ -28,8 +28,9 @@ export default function About() {
                 ,
               </p>
               <p>
-                a Shopify developer who helps ecommerce brands turn their blank
-                storefronts to working, sellable sites.
+                a Shopify developer. I help ecommerce brands launch fast and
+                sell more. I also make sure the storefronts are good in design
+                and look sharp.
               </p>
             </div>
             <div className="bg-gray-700 w-full max-w-lg h-full hidden md:block"></div>
@@ -38,27 +39,26 @@ export default function About() {
           <div className="w-full  flex gap-5 flex-col md:flex-row items-center justify-between">
             <div className="w-full md:w-1/3">
               <p>
-                Building with
-                <span className="text-black "> perfection</span>
+                Building with a<span className="text-black "> mindset</span>
               </p>
               <p>
                 Building with
-                <span className="text-black "> beauty</span>
+                <span className="text-black "> perfection</span>
               </p>
             </div>
 
-            <div className="text-xs  flex items-center justify-between w-full md:max-w-md flex-wrap   text-black text-center">
-              <div className="px-4 py-2 bg-gray-500/20  rounded-sm space-y-1">
+            <div className="text-xs  flex items-center justify-between w-full md:max-w-md flex-wrap   text-gray-800 text-left">
+              <div className="px-2 py-2 border-l-4 border-sky-200  space-y-1">
                 <p>Based in</p>
-                <p>#Bangladesh</p>
+                <p className="text-black text-sm">Bangladesh</p>
               </div>
-              <div className="px-4 py-2 bg-gray-500/20   rounded-sm space-y-1">
+              <div className="px-2 py-2 border-l-4 border-sky-200  space-y-1">
                 <p>Working</p>
-                <p>Globally</p>
+                <p className="text-black text-sm">Globally</p>
               </div>
-              <div className="px-4 py-2 bg-gray-500/20 rounded-sm space-y-1">
-                <p>Currently w/</p>
-                <p>Xyx builders</p>
+              <div className="px-2 py-2 border-l-4 border-sky-200  space-y-1">
+                <p>Currently at</p>
+                <p className="text-black text-sm">Xyz builders</p>
               </div>
             </div>
           </div>
