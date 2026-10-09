@@ -41,3 +41,12 @@ body {
   background: oklch(90.1% 0.058 230.902);
   color: black;
 }
+
+.draw-this {
+  stroke: white;
+  fill: white;
+  fill-opacity: 0;
+  stroke-width: 0.5;
+  stroke-dashoffset: 1200;
+  stroke-dasharray: 1200;
+}

@@ -12,6 +12,7 @@ import Hero from "./components/Hero";
 import Work from "./components/Work";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Welcome from "./components/Welcome";
 
 function App() {
   const lenisRef = useRef(null);
@@ -31,6 +32,7 @@ function App() {
   return (
     <ReactLenis root ref={lenisRef} options={{ autoRaf: false }}>
       <div className=" min-h-screen w-full relative overflow-clip">
+        <Welcome />
         <Nav />
         <Background />
         <Hero />

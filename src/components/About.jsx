@@ -29,8 +29,8 @@ export default function About() {
               </p>
               <p>
                 a Shopify developer. I help ecommerce brands launch fast and
-                sell more. I also make sure the storefronts are good in design
-                and look sharp.
+                sell more, with storefronts that look sharp and work even
+                better.
               </p>
             </div>
             <div className="bg-gray-700 w-full max-w-lg h-full hidden md:block"></div>

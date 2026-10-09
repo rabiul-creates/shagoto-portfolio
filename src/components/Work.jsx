@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 export default function Work() {
   return (
     <div
@@ -18,20 +20,56 @@ export default function Work() {
           </div>
 
           <div className="w-full max-w-[71rem] mx-auto h-full flex  items-center justify-center sm:justify-between flex-col sm:flex-row  gap-10 sm:gap-12 md:gap-15 ">
-            <div className="w-full h-full flex flex-col  justify-center mx-auto">
-              <div className="w-full h-full max-h-60 max-w-120 mb-12 sm:mb-25 ">
-                <div className="w-full h-full">
-                  <div className="w-1/2 h-6 sm:h-10 bg-sky-300 rounded-t-sm"></div>
+            <div className="w-full h-full flex flex-col  justify-center mx-auto ">
+              <div className="w-full h-full max-h-60 max-w-120 mb-14 sm:mb-25 relative group">
+                <div className="w-full h-full relative">
+                  <div className="w-1/2 h-6 sm:h-10 bg-sky-300 rounded-t-sm "></div>
                   <div className="w-full h-full bg-sky-300 rounded-b-sm rounded-tr-sm pt-1 sm:pt-2">
                     <div className="w-full h-5 sm:h-8 relative">
                       <div className="absolute bottom-0 left-10  w-1/4 h-2 sm:h-3 bg-white"></div>
-                      <div className="absolute right-0 bottom-0  w-2/3 h-5 sm:h-8 bg-sky-200 rounded-t-2xl"></div>
+                      <div className="absolute right-0 bottom-0  w-2/3 h-5 sm:h-8 bg-sky-200 rounded-t-2xl z-2"></div>
                     </div>
 
-                    <div className="w-full h-full bg-sky-200 rounded-b-sm rounded-tl-2xl flex items-center justify-center font-MoonTime text-4xl sm:text-5xl">
+                    <div className="w-full h-full absolute  z-2 bg-sky-200 rounded-b-sm rounded-tl-2xl flex items-center justify-center font-MoonTime text-4xl sm:text-5xl">
                       <h1>Voci Perfuma</h1>
                     </div>
                   </div>
+                  <motion.div
+                    initial={{ rotate: 0 }}
+                    animate={{ rotate: 5 }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                    className="absolute top-0 right-0 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 "
+                  >
+                    <div className="w-full h-full bg-neutral-600"></div>
+                  </motion.div>
+                  <motion.div
+                    initial={{ rotate: 0 }}
+                    animate={{ rotate: 8 }}
+                    transition={{
+                      duration: 4,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                    className="absolute top-0 right-40 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 "
+                  >
+                    <div className="w-full h-full bg-neutral-600"></div>
+                  </motion.div>
+                  <motion.div
+                    initial={{ rotate: 0 }}
+                    animate={{ rotate: -8 }}
+                    transition={{
+                      duration: 3,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                    }}
+                    className="absolute top-2 right-15 w-25 h-30 sm:w-30 sm:h-40 p-1.5 bg-white border border-black/30 shadow-xl z-1  shadow-black/20 "
+                  >
+                    <div className="w-full h-full bg-neutral-600"></div>
+                  </motion.div>
                 </div>
               </div>
               <div className="flex items-center justify-between max-w-120 ">
@@ -44,7 +82,7 @@ export default function Work() {
               </div>
             </div>
             <div className="w-full h-full flex flex-col  justify-center mx-auto">
-              <div className="w-full h-full max-h-60 max-w-120 mb-12 sm:mb-25 ">
+              <div className="w-full h-full max-h-60 max-w-120 mb-14 sm:mb-25 ">
                 <div className="w-full h-full">
                   <div className="w-1/2 h-6 sm:h-10 bg-sky-300 rounded-t-sm"></div>
                   <div className="w-full h-full bg-sky-300 rounded-b-sm rounded-tr-sm pt-1 sm:pt-2">

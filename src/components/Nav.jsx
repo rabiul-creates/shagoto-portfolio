@@ -2,7 +2,7 @@ import ScrollLink from "./ScrollLink";
 
 export default function Nav() {
   return (
-    <nav className=" fixed w-full  top-0 z-100">
+    <nav className=" fixed w-full  top-0 z-10">
       <div
         className="mt-3 mx-auto rounded-sm text-sm md:text-base  w-[60vw] bg-white/10 backdrop-blur-md max-w-150
       flex items-center justify-between  px-[10px] md:px-4 py-1 sm:py-2 
@@ -17,7 +17,10 @@ export default function Nav() {
             scale-x-0 group-hover:scale-x-100 group-active:scale-x-100 transition-transform duration-300 ease-in-out"
             ></span>
           </ScrollLink>
-          <ScrollLink href="#about" className="  relative inline-block group ">
+          <ScrollLink
+            href="#about"
+            className="max-sm:hidden  relative inline-block group "
+          >
             About
             <span
               className="absolute bottom-0 left-0 w-full h-[2px] bg-black origin-left
